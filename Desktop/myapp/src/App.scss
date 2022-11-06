@@ -10,55 +10,46 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-.header {
-  border-bottom: 1px solid #000000;
-  padding: 10px;
-
-  &-title {
-    padding-top: 5px;
-    text-align: center;
+.rating {
+  &-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    padding: 0 30%;
   }
 
-  &-subtitle {
-    display: block;
-    text-align: center;
+  &-element {
+    padding: 10px;
+    &__focused path {
+      transition: all ease 0.1s;
+      fill: rgb(245, 176, 16);
+    }
+  }
+
+  &-button {
+    color: white;
+    padding: 15px 20px;
     font-size: 20px;
     font-weight: 700;
-    padding: 8px 0;
-  }
+    margin-left: 20px;
 
-  &-description {
-    text-align: justify;
-    padding: 5px 0 10px 0;
-    line-height: 24px;
-  }
-}
+    &__off {
+      border-radius: 12px;
+      background-color: rgb(30, 194, 244);
+      border: rgb(30, 194, 244) solid 2px;
 
-.section {
-  padding: 7px 10px;
-
-  &-title {
-    padding: 7px 0;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-
-  &-main {
-    font-weight: 700;
-  }
-
-  &-info {
-    line-height: 24px;
-    &__list {
-      padding: 0 20px;
-
-      &-unbulleted {
-        list-style-type: none;
+      &:hover {
+        box-shadow: 0px 3px 8px 12px rgb(30, 194, 244, 0.4);
+        transition: all ease 0.2s;
       }
     }
 
-    &__divider {
-      padding-bottom: 10px;
+    &__on {
+      border-radius: 50px;
+      background-color: rgb(14, 214, 71);
+      border: rgb(14, 214, 71) solid 2px;
+      transition: all ease 0.3s;
     }
   }
 }

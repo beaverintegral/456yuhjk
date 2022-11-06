@@ -1,21 +1,12 @@
 import './App.scss'
-import Header from './components/Header'
-import Contacts from './components/Contacts'
-import Skills from './components/Skills'
-import Experience from './components/Experience'
-import Education from './components/Education'
-import Awards from './components/Awards'
+import Rating from './components/Rating'
+import RatingClass from './components/RatingClass'
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Contacts></Contacts>
-      <Skills></Skills>
-      <Experience></Experience>
-      <Education></Education>
-      <Awards></Awards>
-      <span>References available upon request.</span>
+      <Rating></Rating>
+      <RatingClass></RatingClass>
     </>
   )
 }
