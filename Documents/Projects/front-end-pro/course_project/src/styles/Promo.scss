@@ -1,0 +1,20 @@
+.promo {
+  &_description {
+    display: inline-block;
+    padding-right: 20px;
+    @include font-two;
+    color: #ffffff;
+  }
+  &_link {
+    color: #ffff;
+    text-decoration: underline;
+    @include font-two;
+  }
+  &-wrapper {
+    background-color: #ed83a8;
+    padding: 18px 428px;
+    &__space {
+      margin-bottom: 10px;
+    }
+  }
+}

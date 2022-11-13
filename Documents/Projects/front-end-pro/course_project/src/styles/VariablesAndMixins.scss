@@ -1,0 +1,40 @@
+$standardWidth: calc(100% - 165px * 2);
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-ends {
+  display: flex;
+  align-items: flex-end;
+}
+
+@mixin font-one {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@mixin font-two {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@mixin font-three {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@mixin font-four {
+  font-weight: 600;
+  line-height: 16px;
+}

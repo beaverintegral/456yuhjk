@@ -1,0 +1,15 @@
+.header-top {
+  background-color: #32313a;
+  padding: 22px 0;
+  @include flex-center;
+  align-items: center;
+  &_elements-wrapper {
+    @include flex-between-center;
+    width: $standardWidth;
+  }
+  &_nav-wrapper {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

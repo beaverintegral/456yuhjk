@@ -1,0 +1,51 @@
+@import './styles/normalize.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@import './styles/VariablesAndMixins.scss';
+
+@import './styles/MainLogo.scss';
+
+@import './styles/HeaderTop.scss';
+
+@import './styles/Wishlist.scss';
+
+@import './styles/SearchForm.scss';
+
+@import './styles/HeaderNav.scss';
+
+@import './styles/Promo.scss';
+
+@import './styles/Hero.scss';
+
+@import './styles/CategoryCard.scss';
+
+@import './styles/ProductCard.scss';
+
+@import './styles/Tile.scss';
+
+@import './styles/SpecialOffer.scss';
+
+@import './styles/Button.scss';
+
+@import './styles/Divider.scss';
+
+@import './styles/BrandPanel.scss';
+
+@import './styles/FooterTop.scss';
+
+@import './styles/FooterBottom.scss';
+
+@import './styles/Subscription.scss';
+
+@import './styles/Social.scss';

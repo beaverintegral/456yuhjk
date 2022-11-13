@@ -1,0 +1,12 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  @include font-four;
+  font-size: 14px;
+  &__dark {
+    background-color: #32313a;
+    color: #ffffff;
+    border: none;
+  }
+}

@@ -1,0 +1,22 @@
+.category-card {
+  @include flex-ends;
+  flex-direction: column;
+  &__space:not(:last-of-type) {
+    margin-right: 30px;
+  }
+  &_image {
+    width: 160px;
+    border-radius: 2px 2px 0 0;
+  }
+  &_title {
+    display: block;
+    background-color: #32313a;
+    font-style: normal;
+    @include font-four;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 53px;
+    border-radius: 0 0 2px 2px;
+    width: 160px;
+  }
+}

@@ -1,0 +1,15 @@
+.brand-panel {
+  @include flex-between-center;
+  width: $standardWidth;
+  &-wrapper {
+    @include flex-center;
+    padding-bottom: 100px;
+  }
+  &_element {
+    margin-right: 95px;
+  }
+  &_link {
+    @include font-two;
+    color: #32313a;
+  }
+}

@@ -1,0 +1,44 @@
+.product-card {
+  position: relative;
+  display: inline-block;
+  &__space:not(:last-of-type) {
+    margin-right: 30px;
+  }
+  &_image {
+    width: 255px;
+    border-radius: 2px;
+    &-wrap {
+      position: relative;
+    }
+  }
+  &_wishlist-field {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 24px;
+    height: 24px;
+    @include flex-center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f7f7f9;
+  }
+  &_title {
+    display: block;
+    font-family: 'Merriweather';
+    padding: 14px 0 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #32313a;
+  }
+  &_description {
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #56555d;
+    &:last-of-type {
+      padding-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.social {
+  &-wrapper {
+    width: 200px;
+    @include flex-between-center;
+  }
+}

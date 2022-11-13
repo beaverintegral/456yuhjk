@@ -1,0 +1,30 @@
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  width: $standardWidth;
+  &-wrapper {
+    @include flex-center;
+    padding: 60px 0 78px 0;
+    background-color: #f7f7f9;
+  }
+  &_nav {
+    &-element {
+      list-style: none;
+      &:not(:last-of-type) {
+        padding-bottom: 20px;
+      }
+    }
+    &-element:not(:first-of-type) a {
+      text-decoration: none;
+      @include font-three;
+      color: #6e6d74;
+    }
+    &-element:first-of-type a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #32313a;
+    }
+  }
+}

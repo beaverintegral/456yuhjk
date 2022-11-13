@@ -1,0 +1,19 @@
+.subscription {
+  &_description {
+    display: block;
+    width: 540px;
+    @include font-one;
+    color: #6e6d74;
+    padding-bottom: 24px;
+  }
+  &-form {
+    padding-bottom: 40px;
+    &_input {
+      width: 268px;
+      padding: 10px 0 10px 12px;
+      border: none;
+      @include font-three;
+      color: #86858b;
+    }
+  }
+}

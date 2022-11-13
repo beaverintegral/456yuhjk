@@ -1,0 +1,12 @@
+.hero-wrapper {
+  background-image: url(../images/hero.webp);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  padding: 100px 165px;
+  @include flex-ends;
+  justify-content: space-between;
+  &__space {
+    margin-bottom: 100px;
+  }
+}

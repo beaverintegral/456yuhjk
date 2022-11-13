@@ -1,0 +1,13 @@
+.footer-bottom {
+  @include flex-between-center;
+  width: $standardWidth;
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+  }
+  &_copyright {
+    @include font-one;
+    color: #86858b;
+  }
+}

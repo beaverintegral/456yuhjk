@@ -1,0 +1,14 @@
+.tile {
+  width: $standardWidth;
+  padding-bottom: 100px;
+  @include flex-center;
+  &-wrap {
+    @include flex-center;
+  }
+  &-image {
+    width: 550px;
+    &:first-of-type {
+      margin-right: 10px;
+    }
+  }
+}
